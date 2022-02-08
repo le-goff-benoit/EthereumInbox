@@ -1,18 +1,29 @@
 {
-  "name": "inbox",
+  "name": "ethereuminbox",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "compile.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "mocha"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/le-goff-benoit/EthereumInbox.git"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@truffle/hdwallet-provider": "^2.0.1",
+    "@truffle/hdwallet-provider": "2.0.1",
     "ganache-cli": "^6.12.2",
-    "mocha": "^9.2.0",
-    "solc": "^0.4.26",
-    "web3": "^1.7.0"
-  }
+    "mocha": "^9.1.2",
+    "solc": "^0.8.9",
+    "web3": "^1.6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/le-goff-benoit/EthereumInbox/issues"
+  },
+  "homepage": "https://github.com/le-goff-benoit/EthereumInbox#readme"
 }
